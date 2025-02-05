@@ -1,0 +1,23 @@
+{
+    "name": "carlosdico/bouncer-api",
+    "description": "API para gestionar permisos de Bouncer",
+    "type": "library",
+    "autoload": {
+      "psr-4": {
+        "carlosdico\\bouncer-api\\": "src/"
+      }
+    },
+    "require": {
+      "php": "^8.0",
+      "silber/bouncer": "^v1.0",
+      "laravel/framework": "^9.0"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "carlosdico\\bouncer-api\\BouncerApiServiceProvider"
+        ]
+      }
+    }
+  }
+  

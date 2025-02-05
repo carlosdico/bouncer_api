@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to bouncer-api will be documented in this file.
+All notable changes to bouncer_api will be documented in this file.
 ## [Unreleased]
 
 ### Refactored

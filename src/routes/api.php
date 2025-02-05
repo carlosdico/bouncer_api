@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use carlosdico\BouncerApi\Controllers\BouncerController;
+use Illuminate\Support\Facades\Route;
 
 Route::prefix('bouncer')->middleware('auth:sanctum')->group(function () {
     Route::post('/assign-role', [BouncerController::class, 'assignRole']);
